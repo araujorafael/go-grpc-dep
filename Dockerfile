@@ -20,5 +20,4 @@ protoc --version
 RUN go get -u github.com/golang/dep/cmd/dep
 #instal grpc e protobuf
 RUN go get -u google.golang.org/grpc
-RUN go get -u github.com/golang/protobuf/proto
-
+RUN go get -u github.com/golang/protobuf/protoc-gen-go
